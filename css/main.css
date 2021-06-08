@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+#header {
+  height: 80px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header #logo img {
+  width: 132px;
+}
+
+#header #menu,
+#header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#header li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+#header a {
+  color: #fff;
+}
+
+#main {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: #9bf0e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main .textos {
+  color: #2d46b9;
+}
+
+#main .textos h1 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+#main .textos h2 {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 2rem;
+}
+
+#main .textos h3 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+#main .imagem {
+  max-width: 900px;
+}
+
+#main button {
+  width: auto;
+  padding: 1rem 3rem;
+  background-color: #2d46b9;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
