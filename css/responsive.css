@@ -1,0 +1,48 @@
+@media (max-width: 760px) {
+  #menu {
+    display: none !important;
+  }
+
+  #logo {
+    margin: 0 auto;
+  }
+
+  #main {
+    padding-top: 40px;
+    height: 100%;
+  }
+
+  #main h1 {
+    font-size: 36px !important;
+    line-height: 40px !important;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  #main h2 {
+    font-size: 20px !important;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  #main h3 {
+    text-align: center;
+  }
+
+  .botao {
+    text-align: center;
+  }
+
+  button {
+    margin-bottom: 2rem;
+    width: 280px !important;
+    padding: 1rem 1rem !important;
+  }
+
+  .imagem {
+    width: 280px;
+    margin: 0 auto;
+  }
+}

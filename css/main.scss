@@ -6,9 +6,24 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("../assets/fonts/Circular-Std-Book.eot");
+  src: url("../assets/fonts/Circular-Std-Book.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/Circular-Std-Book.woff2") format("woff2"),
+    url("../assets/fonts/Circular-Std-Book.woff") format("woff"),
+    url("../assets/fonts/Circular-Std-Book.ttf") format("truetype"),
+    url("../assets/fonts/Circular-Std-Book.svg") format("svg");
+}
+
 body {
-  font-family: sans-serif;
+  font-family: "Circular Std Book", sans-serif;
   font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
 }
 
 #header {
@@ -20,8 +35,10 @@ body {
   align-items: center;
   justify-content: space-between;
 
-  #logo img {
-    width: 132px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   #menu,
@@ -38,6 +55,7 @@ body {
 
   a {
     color: #fff;
+    text-decoration: none;
   }
 }
 
@@ -48,26 +66,23 @@ body {
   display: flex;
   align-items: center;
 
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
   .textos {
     color: rgb(45, 70, 185);
 
     h1 {
       font-size: 60px;
-      line-height: 60px;
+      line-height: 70px;
       font-weight: bolder;
       margin-bottom: 2rem;
+      max-width: 500px;
     }
 
     h2 {
       font-size: 24px;
       line-height: 24px;
       margin-bottom: 2rem;
+      font-weight: normal;
+      max-width: 740px;
     }
 
     h3 {
@@ -91,5 +106,6 @@ body {
     border: none;
     border-radius: 500px;
     cursor: pointer;
+    font-family: "Circular Std Book", sans-serif;
   }
 }
