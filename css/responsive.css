@@ -1,5 +1,7 @@
-@media (max-width: 760px) {
-  #menu {
+/* Mobile */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #itens-menu {
     display: none !important;
   }
 
@@ -8,8 +10,8 @@
   }
 
   #main {
-    padding-top: 40px;
-    height: 100%;
+    height: auto;
+    padding: 2rem 0;
   }
 
   #main h1 {
@@ -33,10 +35,10 @@
 
   .botao {
     text-align: center;
+    margin-bottom: 2rem;
   }
 
   button {
-    margin-bottom: 2rem;
     width: 280px !important;
     padding: 1rem 1rem !important;
   }
@@ -44,5 +46,52 @@
   .imagem {
     width: 280px;
     margin: 0 auto;
+  }
+
+  #musicas {
+    background-image: url(../assets/images/bg-musicas-mobile.svg);
+    background-position: 62% 52%;
+    background-size: auto 160%;
+    background-repeat: no-repeat;
+    padding: 7rem 0;
+    text-align: center;
+  }
+}
+
+/* Tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #main h1,
+  h2,
+  h3,
+  .botao {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .botao {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .imagem {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  #musicas {
+    background-image: url(../assets/images/bg-musicas-tablet.svg);
+    background-position: center center;
+    background-size: auto 170%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  #musicas .textos h1 {
+    max-width: 100%;
+  }
+
+  #musicas .textos h2 {
+    margin: 0 auto 2rem auto;
   }
 }

@@ -45,9 +45,9 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
 </head>
 
@@ -55,39 +55,62 @@
 
   <header id="header">
     <div class="container">
-      <div id="logo">
-        <a href="./"><img src="assets/images/logo-spotify.svg" width="132" alt="Logo Spotify"></a>
+      <div class="menu-container">
+        <div id="logo">
+          <a href="./"><img src="assets/images/logo-spotify.svg" width="132" alt="Logo Spotify"></a>
+        </div>
+        <nav id="itens-menu">
+          <ul>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Suporte</a></li>
+            <li><a href="#">Baixar</a></li>
+            <li>|</li>
+            <li><a href="#">Inscreva-se</a></li>
+            <li><a href="#">Entrar</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav id="menu">
-        <ul>
-          <li><a href="#">Premium</a></li>
-          <li><a href="#">Suporte</a></li>
-          <li><a href="#">Baixar</a></li>
-          <li>|</li>
-          <li><a href="#">Inscreva-se</a></li>
-          <li><a href="#">Entrar</a></li>
-        </ul>
-      </nav>
     </div>
   </header>
 
   <main id="main">
     <div class="container">
       <div class="row">
-        <div class="col-6 textos">
-          <h3>Spotify Premium</h3>
-          <h1>Curta 3 meses de Premium grátis</h1>
-          <h2>Curta músicas sem anúncios, no modo offline e muito mais. Cancele quando quiser.</h2>
-          <div class="botao">
-            <button>Ganhe 3 meses grátis</button>
+        <div class="col-12 col-sm-8 col-md-12 col-lg-12 col-xl-8">
+          <div class="textos">
+            <h3>Spotify Premium</h3>
+            <h1>Curta 3 meses de Premium grátis</h1>
+            <h2>Curta músicas sem anúncios, no modo offline e muito mais. Cancele quando quiser.</h2>
+            <div class="botao">
+              <button>Ganhe 3 meses grátis</button>
+            </div>
           </div>
         </div>
-        <div class="col-6 imagem">
-          <img src="assets/images/hero.png" alt="Curta músicas sem anúncios, no modo offline e muito mais.">
+        <div class="col-12 col-sm-4 col-md-12 col-lg-12 col-xl-4">
+          <div class="imagem">
+            <img src="assets/images/hero.png" alt="Curta músicas sem anúncios, no modo offline e muito mais.">
+          </div>
         </div>
       </div>
     </div>
   </main>
+
+  <section id="musicas">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-8 col-md-12 col-lg-12 col-xl-8">
+          <div class="textos">
+            <h3>Spotify Free</h3>
+            <h1>Escutar muda tudo</h1>
+            <h2>Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.</h2>
+            <div class="botao">
+              <button>Baixe o Spotify Free</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
 

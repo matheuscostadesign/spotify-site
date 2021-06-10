@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("../assets/fonts/Circular-Std-Book.eot");
+  src: url("../assets/fonts/Circular-Std-Book.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Circular-Std-Book.woff2") format("woff2"), url("../assets/fonts/Circular-Std-Book.woff") format("woff"), url("../assets/fonts/Circular-Std-Book.ttf") format("truetype"), url("../assets/fonts/Circular-Std-Book.svg") format("svg");
+}
+
 *,
 *::after,
 *::before {
@@ -5,16 +11,10 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "Circular Std Book";
-  src: url("../assets/fonts/Circular-Std-Book.eot");
-  src: url("../assets/fonts/Circular-Std-Book.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Circular-Std-Book.woff2") format("woff2"), url("../assets/fonts/Circular-Std-Book.woff") format("woff"), url("../assets/fonts/Circular-Std-Book.ttf") format("truetype"), url("../assets/fonts/Circular-Std-Book.svg") format("svg");
+  font-family: "Circular Std Book", sans-serif !important;
 }
 
 body {
-  font-family: "Circular Std Book", sans-serif;
   font-size: 1rem;
 }
 
@@ -33,12 +33,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-#header .container {
+#header .menu-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,20 +47,28 @@ img {
           justify-content: space-between;
 }
 
-#header #menu,
+#header #logo,
+#header #itens-menu {
+  display: inline;
+}
+
 #header ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0;
+}
+
+#header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-#header li {
+#header nav li {
   list-style: none;
   padding: 0 1rem;
 }
@@ -75,7 +80,7 @@ img {
 
 #main {
   width: 100%;
-  height: calc(100vh - 80px);
+  height: auto;
   background-color: #9bf0e1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,6 +88,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 6rem 0;
 }
 
 #main .textos {
@@ -99,7 +105,7 @@ img {
 
 #main .textos h2 {
   font-size: 24px;
-  line-height: 24px;
+  line-height: 32px;
   margin-bottom: 2rem;
   font-weight: normal;
   max-width: 740px;
@@ -108,19 +114,83 @@ img {
 #main .textos h3 {
   text-transform: uppercase;
   margin-bottom: 2rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 #main .imagem {
-  max-width: 900px;
+  max-width: 100%;
 }
 
 #main button {
   width: auto;
-  padding: 1rem 3rem;
+  padding: 0.8rem 3rem;
   background-color: #2d46b9;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  font-family: "Circular Std Book", sans-serif;
+}
+
+#musicas {
+  width: 100%;
+  height: auto;
+  background-color: #2941ab;
+  background-image: url(../assets/images/bg-musicas.svg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9rem 0;
+}
+
+#musicas .textos {
+  color: #1ed760;
+}
+
+#musicas .textos h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  max-width: 560px;
+}
+
+#musicas .textos h2 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 2rem;
+  font-weight: normal;
+  max-width: 560px;
+}
+
+#musicas .textos h3 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#musicas button {
+  width: auto;
+  padding: 0.8rem 3rem;
+  background-color: #1ed760;
+  color: #2941ab;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.875rem;
   font-weight: 700;
   border: none;
   border-radius: 500px;
