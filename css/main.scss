@@ -63,6 +63,11 @@ img {
   a {
     color: #fff;
     text-decoration: none;
+
+    &:hover {
+      color: rgb(30, 215, 96);
+      text-decoration: none;
+    }
   }
 }
 
@@ -175,5 +180,118 @@ img {
     border-radius: 500px;
     cursor: pointer;
     font-family: "Circular Std Book", sans-serif;
+  }
+}
+
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  padding: 4rem 0;
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: rgb(30, 215, 96);
+      text-decoration: none;
+    }
+  }
+
+  .logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .socialFooter {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+      .icone {
+        background: #222326;
+        width: 54px;
+        height: 54px;
+        clip-path: circle();
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+          color: #fff;
+
+          &:hover {
+            color: rgb(30, 215, 96);
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .linksFooter {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+
+    h6 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #919496;
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+    }
+
+    li {
+      list-style: none;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .pais {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 0.8rem;
+    font-size: 0.8rem;
+    color: #919496;
+
+    a {
+      color: #919496;
+
+      &:hover {
+        color: rgb(30, 215, 96);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .copyright {
+    color: #919496;
+    font-size: 0.8rem;
+
+    .containerCopy {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .linksCopy ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 2rem;
+
+      a {
+        color: #919496;
+
+        &:hover {
+          color: rgb(30, 215, 96);
+          text-decoration: none;
+        }
+      }
+    }
   }
 }

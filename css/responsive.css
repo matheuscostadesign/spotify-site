@@ -56,11 +56,30 @@
     padding: 7rem 0;
     text-align: center;
   }
+
+  .logos {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .linksFooter {
+    text-align: center;
+    margin-bottom: 4rem !important;
+  }
+
+  .linksFooter h6 {
+    margin-top: 2rem;
+  }
+
+  .pais,
+  .copyright {
+    display: none !important;
+  }
 }
 
 /* Tablets */
 
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   #main h1,
   h2,
   h3,
