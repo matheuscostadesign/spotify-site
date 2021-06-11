@@ -15,7 +15,7 @@
   }
 
   #main h1 {
-    font-size: 36px !important;
+    font-size: 40px !important;
     line-height: 40px !important;
     font-weight: bolder;
     margin-bottom: 2rem;
@@ -57,6 +57,21 @@
     text-align: center;
   }
 
+  #musicas h1 {
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
+
+  #musicas h2 {
+    font-size: 20px !important;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  #musicas h3 {
+    text-align: center;
+  }
+
   .logos {
     flex-direction: column;
     gap: 4rem;
@@ -64,7 +79,7 @@
 
   .linksFooter {
     text-align: center;
-    margin-bottom: 4rem !important;
+    margin-bottom: 2rem !important;
   }
 
   .linksFooter h6 {
