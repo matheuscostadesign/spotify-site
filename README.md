@@ -8,7 +8,7 @@
 
 - Este projeto foi criado utilizando apenas as tecnologias HTML e CSS com SASS
 
-- A página foi hospedada no <a href="https://www.netlify.com/">Netlify</a>, com deploy automático via Git
+- A página foi hospedada no <a href="https://www.netlify.com/">Netlify</a>, com deploy automático via Git/Github
 
 - Vaaleu!
 
