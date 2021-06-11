@@ -8,7 +8,7 @@
 
 - Este projeto foi criado utilizando apenas as tecnologias HTML e CSS com SASS
 
-- A página foi hospedada no <a href="https://www.netlify.com/">Netlify</a>, com deploy automático via Git/Github
+- A página foi hospedada no <a href="https://www.netlify.com/">Netlify</a>, com deploy automático via Git/Github e está disponível no endereço <a href="https://spotify-site.netlify.app/">https://spotify-site.netlify.app/</a>
 
 - Vaaleu!
 
